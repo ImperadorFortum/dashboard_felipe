@@ -4,10 +4,10 @@ from PyQt5 import uic
 from controller.home import Home
 from controller.ui_despesas import UiDespesas
 from controller.ui_receitas import UiReceitas
-from theme.app_theme import Dark,Light
+from theme.app_theme import DARK,LIGHT
 
 
-FILE_UI = 'view/main_window.ui'
+FILE_UI = 'view/MainWindow.ui'
 
 class MainWindow(QMainWindow):
     def __init__(self):
